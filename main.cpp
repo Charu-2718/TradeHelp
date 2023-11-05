@@ -147,7 +147,7 @@ public:
 // Driver code
 int main()
 {
-	freopen("input.txt", "r",
+	freopen("Data.txt", "r",
 			stdin);
 	regression reg;
 
@@ -160,10 +160,10 @@ int main()
 
 
 	reg.PrintBestFittingLine();
-	cout << "Predicted value at 2060 = "
-		<< reg.predict(2060) << endl;
+	cout << "Predicted value at 2009.0316 = "
+		<< reg.predict(2009.0316) << endl;
 	cout << "The errorSquared = "
 		<< reg.errorSquare() << endl;
-	cout << "Error in 2050 = "
-		<< reg.errorIn(2050) << endl;
+	cout << "Error in 2009.0316 = "
+		<< reg.errorIn(2009.0316) << endl;
 }
