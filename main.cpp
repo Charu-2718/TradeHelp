@@ -147,8 +147,7 @@ public:
 // Driver code
 int main()
 {
-	freopen("Data2.txt", "r",
-			stdin);
+	freopen("Data2.txt", "r",stdin);
 	regression reg;
 
 	
